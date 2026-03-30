@@ -4,7 +4,7 @@ export default function Footer() {
 
   const navigate = useNavigate();
 
-  const isLoggedIn = localStorage.getItem("userAuth");
+  const isLoggedIn = localStorage.getItem("user");
 
 
   /* SCROLL TO TOP FUNCTION */
